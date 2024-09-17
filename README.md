@@ -8,7 +8,7 @@ Here is a breakdown of the different components in the project:
 
 2. **Model Architecture**: The model architecture used in this project is AlexNet. AlexNet is a classic convolutional neural network (CNN) architecture that gained significant attention after winning the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) in 2012. It consists of several convolutional and fully connected layers, making it well-suited for image classification tasks.
 
-3. **Transfer Learning**: The AlexNet model is loaded with pre-trained weights. Pre-trained weights are learned from a large dataset (e.g., ImageNet) and then used as an initialization for the lung cancer classification task. This approach allows the model to leverage knowledge from ImageNet for feature extraction and adapt it to the new lung cancer dataset.
+3. **Transfer Learning**: The VGG19 model is loaded with pre-trained weights. Pre-trained weights are learned from a large dataset (e.g., ImageNet) and then used as an initialization for the lung cancer classification task. This approach allows the model to leverage knowledge from ImageNet for feature extraction and adapt it to the new lung cancer dataset.
 
 4. **Training and Evaluation**: The model is trained on the training data, and the validation set is used to monitor its performance during training. Several metrics are used for evaluation, such as accuracy, precision, recall, and F1 score. The model is evaluated on the test set to assess its performance on unseen data.
 
